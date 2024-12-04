@@ -95,6 +95,7 @@ body {
   font-weight: 400;
   font-family: "Open Sans", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial,
     sans-serif;
+  background-color: #fce4ec;
 }
 
 /* Typography
@@ -146,6 +147,9 @@ a:hover {
 a:focus {
   outline: #7AB8FF solid 2px;
   border-radius: 2px;
+}
+body {
+  background-color: #280e16;
 }
 }
 

@@ -347,6 +347,16 @@ button:hover,
   filter: brightness(90%);
 }
 
+/* FetLife */
+.button.button-fetlife {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+.button.button-fetlife:hover,
+.button.button-fetlife:focus {
+  filter: brightness(90%);
+}
+
 /* Figma */
 .button.button-figma {
   color: #ffffff;
@@ -383,7 +393,6 @@ button:hover,
 .button.button-github {
   color: #ffffff;
   background-color: #000000;
-  border: 1px solid #FFFFFF;
 }
 .button.button-github:hover,
 .button.button-github:focus {
@@ -580,10 +589,19 @@ button:hover,
 .button.button-mastodon {
   color: #ffffff;
   background-color: #17063B;
-  border: 1px solid #FFFFFF;
 }
 .button.button-mastodon:hover,
 .button.button-mastodon:focus {
+  filter: brightness(90%);
+}
+
+/* Matrix */
+.button.button-matrix {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+.button.button-matrix:hover,
+.button.button-matrix:focus {
   filter: brightness(90%);
 }
 
@@ -701,6 +719,16 @@ button:hover,
 }
 .button.button-read-cv:hover,
 .button.button-read-cv:focus {
+  filter: brightness(90%);
+}
+
+/* Recon */
+.button.button-recon {
+  color: #FFFFFF;
+  background-color: #900;
+}
+.button.button-fetlife:hover,
+.button.button-fetlife:focus {
   filter: brightness(90%);
 }
 
@@ -843,7 +871,6 @@ button:hover,
 .button.button-steam-alt {
   color: #ffffff;
   background-image: linear-gradient(90deg, #09172a, #072a57, #0c5085);
-  border: 1px solid #FFFFFF;
 }
 .button.button-steam-alt:hover,
 .button.button-steam-alt:focus {
@@ -950,6 +977,16 @@ button:hover,
 }
 .button.button-twitch:hover,
 .button.button-twitch:focus {
+  filter: brightness(90%);
+}
+
+/* Bookwyrm */
+.button.button-bookwyrm {
+  color: #ffffff;
+  background-color: #005e50;
+}
+.button.button-bookwyrm:hover,
+.button.button-bookwyrm:focus {
   filter: brightness(90%);
 }
 
