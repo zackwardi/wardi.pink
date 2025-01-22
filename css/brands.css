@@ -421,10 +421,12 @@ button:hover,
 
 /* Palestine */
 .button.button-palestine {
-  color: #ffffff;
+  color: #000000;
   background:
-    radial-gradient(circle, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 100%), 
-    conic-gradient(from -90deg at 30% 50%, red 0%, black 15%, black 48%, White 50%, green 52%, green 85%, red 100%);
+    radial-gradient(circle at 0% 50%, rgba(255, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 30%), 
+    linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, transparent 55%), 
+    linear-gradient(0deg, rgba(0, 80, 0, 0.5) 0%, transparent 55%), 
+    white;
 }
 .button.button-palestine:hover,
 .button.button-palestine:focus {
