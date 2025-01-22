@@ -588,7 +588,9 @@ button:hover,
 /* Mastodon */
 .button.button-mastodon {
   color: #ffffff;
-  background: conic-gradient(in hsl longer hue from 228deg, rgb(141, 0, 0) 0 0)
+  background: 
+    radial-gradient(circle, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 100%),
+    conic-gradient(in hsl longer hue from 228deg, red 0 0);
 }
 .button.button-mastodon:hover,
 .button.button-mastodon:focus {
@@ -672,7 +674,9 @@ button:hover,
 /* Pixelfed */
 .button.button-pixelfed {
   color: #ffffff;
-  background: conic-gradient(in hsl longer hue from -10deg, rgb(141, 0, 0) 0 0)
+  background: 
+    radial-gradient(circle, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 100%),
+    conic-gradient(in hsl longer hue from -10deg, red 0 0);
 }
 .button.button-pixelfed:hover,
 .button.button-pixelfed:focus {
