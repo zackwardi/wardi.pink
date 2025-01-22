@@ -602,7 +602,7 @@ button:hover,
   color: #ffffff;
   background: 
     radial-gradient(circle, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 100%),
-    conic-gradient(in hsl longer hue from 228deg, red 0 0);
+    conic-gradient(in hsl longer hue from 232deg, red 0 0);
 }
 .button.button-mastodon:hover,
 .button.button-mastodon:focus {
